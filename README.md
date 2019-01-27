@@ -7,7 +7,7 @@
  # Thiết kế hệ thống
  
  ## Các tầng trong hệ thống
- <img src="https://imgur.com/Yw80t7b">
+ <img src="smart-home-proactive/16722475_1918813875004956_2642061477154202276_o.jpg">
  **Tầng vật lý**
  <img src="https://imgur.com/a/0RUkS2v">
  | Cột 1 Hàng 1 | Cột 2 | Cột 3| Cột 4 |
