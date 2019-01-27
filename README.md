@@ -10,6 +10,11 @@
  <img src="https://imgur.com/Yw80t7b">
  **Tầng vật lý**
  <img src="https://imgur.com/a/0RUkS2v">
+ | Cột 1 Hàng 1 | Cột 2 | Cột 3| Cột 4 |
+|--------------|-------|------|-------|
+| Hàng 2 | 2 x 1 | 2 x 2 | 2 x 3 | 2 x 4 |
+| Hàng 3 | 3 x 1 | 3 x 2 | 3 x 3 | 3 x 4 |
+| Hàng 4 | 4 x 1 | 4 x 2 | 4 x 3 | 4 x 4 |
 | Device | Số lượng | Nhiệm vụ |
 |--------------|-------|------|-------
 | ESP8266 | 3 | Nhận lệnh điều khiển từ tầng xử lý cũng như thu thập trạng thái của các thiết bị |
