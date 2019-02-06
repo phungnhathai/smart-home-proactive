@@ -8,7 +8,9 @@
  
  ## Các tầng trong hệ thống
  <img src="https://github.com/phungnhathai/smart-home-proactive/blob/master/image/layer.png">
+ 
  ### 1Tầng vật lý
+ 
  <img src="https://github.com/phungnhathai/smart-home-proactive/blob/master/image/physical-layer.png">
  | Cột 1 Hàng 1 | Cột 2 | Cột 3| Cột 4 |
 |--------------|-------|------|-------|
