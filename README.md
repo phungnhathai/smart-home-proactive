@@ -9,7 +9,7 @@
  ## Các tầng trong hệ thống
  <img src="https://github.com/phungnhathai/smart-home-proactive/blob/master/image/layer.png">
  
- ### 1Tầng vật lý
+ ### 1.Tầng vật lý
  
  <img src="https://github.com/phungnhathai/smart-home-proactive/blob/master/image/physical-layer.png">
  | Cột 1 Hàng 1 | Cột 2 | Cột 3| Cột 4 |
@@ -29,7 +29,7 @@
 | Đèn led | 6 (1 led RGB) | Hệ thống đèn trong nhà |
 
 | Device       | Số lượng       | Chú thích  |
-| ------------- |:-------------:| -----:|
+| ------------- |:-------------:|:-----:|
 | ESP8266     | 3 | Nhận lệnh điều khiển từ tầng xử lý cũng như thu thập trạng thái của các thiết bị |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| Servo  | 1 |  Hoạt động xoay để đóng mở cửa |
+| RFID| are neat      |    $1 |
