@@ -8,7 +8,7 @@
  
  ## Các tầng trong hệ thống
  <img src="https://github.com/phungnhathai/smart-home-proactive/blob/master/image/layer.png">
- **1. Tầng vật lý**
+ ### 1. Tầng vật lý
  <img src="https://github.com/phungnhathai/smart-home-proactive/blob/master/image/physical-layer.png">
  | Cột 1 Hàng 1 | Cột 2 | Cột 3| Cột 4 |
 |--------------|-------|------|-------|
@@ -26,8 +26,8 @@
 | Màn hình oled I2C | 1 | Hiển thị nhiệt độ |
 | Đèn led | 6 (1 led RGB) | Hệ thống đèn trong nhà |
 
-| Tables        | Are           | Cool  |
+| Device       | Số lượng       | Chú thích  |
 | ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
+| ESP8266     | 3 | Nhận lệnh điều khiển từ tầng xử lý cũng như thu thập trạng thái của các thiết bị |
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
