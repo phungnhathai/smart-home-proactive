@@ -16,17 +16,10 @@
  
  <img width="400" align="center" src="https://github.com/phungnhathai/smart-home-proactive/blob/master/image/physical-layer.png">
  
- | Cột 1 Hàng 1 | Cột 2 | Cột 3| Cột 4 |
-|--------------|-------|------|-------|
-| Hàng 2 | 2 x 1 | 2 x 2 | 2 x 3 | 2 x 4 |
-| Hàng 3 | 3 x 1 | 3 x 2 | 3 x 3 | 3 x 4 |
-| Hàng 4 | 4 x 1 | 4 x 2 | 4 x 3 | 4 x 4 |
-
-
 
 | Device       | Số lượng       | Chú thích  |
 | ------------- |:-------------:|:-----:|
-| ESP8266     | 3 | Nhận lệnh điều khiển từ tầng xử lý cũng như thu thập trạng thái của các thiết bị |
+| ESP8266     | 3 | Mạch nhúng Arduino |
 | Servo  | 1 |  Hoạt động xoay để đóng mở cửa |
 | RFID| 1 | Checkin & Checkout |
 | Sensor HC-SR04 | 1 | Phát hiện người để mở cửa tự động |
