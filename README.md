@@ -14,7 +14,7 @@
  
  ### 1. Tầng vật lý
  
- <img width="400" src="https://github.com/phungnhathai/smart-home-proactive/blob/master/image/physical-layer.png"  align="center">
+ <img width="400" align="center" src="https://github.com/phungnhathai/smart-home-proactive/blob/master/image/physical-layer.png">
  
  | Cột 1 Hàng 1 | Cột 2 | Cột 3| Cột 4 |
 |--------------|-------|------|-------|
@@ -23,17 +23,12 @@
 | Hàng 4 | 4 x 1 | 4 x 2 | 4 x 3 | 4 x 4 |
 
 
-| Device | Số lượng | Nhiệm vụ |
-|--------------|-------|------|-------
-| ESP8266 | 3 | Nhận lệnh điều khiển từ tầng xử lý cũng như thu thập trạng thái của các thiết bị |
-| Servor 9G SG90 | 1  | Hoạt động xoay để đóng mở cửa |
-| RFID | 1 | Checkin & Checkout |
-| HC-SR04 | 1 | Phát hiện người để mở cửa tự động |
-| Màn hình oled I2C | 1 | Hiển thị nhiệt độ |
-| Đèn led | 6 (1 led RGB) | Hệ thống đèn trong nhà |
 
 | Device       | Số lượng       | Chú thích  |
 | ------------- |:-------------:|:-----:|
 | ESP8266     | 3 | Nhận lệnh điều khiển từ tầng xử lý cũng như thu thập trạng thái của các thiết bị |
 | Servo  | 1 |  Hoạt động xoay để đóng mở cửa |
-| RFID| are neat      |    $1 |
+| RFID| 1 | Checkin & Checkout |
+| Sensor HC-SR04 | 1 | Phát hiện người để mở cửa tự động |
+| Màn hình oled I2C | 1 | Hiển thị nhiệt độ |
+| Đèn led | 6 (1 led RGB) | Hệ thống đèn trong nhà |
