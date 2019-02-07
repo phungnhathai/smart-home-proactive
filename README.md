@@ -79,6 +79,21 @@ các thiết bị trong nhà từ xa, theo dõi quá trình thu thập dữ li�
  ### Workflow
  
  <p align="center">
-<img width="400" src="https://github.com/phungnhathai/smart-home-proactive/blob/master/image/dashboard.png">
+<img width="400" src="https://github.com/phungnhathai/smart-home-proactive/blob/master/image/work-flow.png">
 </p>
 <p align="center">Giao diện Dashboard</p>
+
+Mô hình nhà thông minh của chúng tôi hoạt động với ba luồng xử lý chính:
+* **Thu thập dữ liệu:** khi người dùng điều khiển thiết bị qua giao diện website thì
+trạng thái của các thiết bị sẽ được thu thập cùng với thời gian và lưu trữ ở cơ
+sở dữ liệu.
+* **Chế độ huấn luyện:** xử lý những dữ liệu đã thu thập được ở cơ sở dữ liệu và
+đưa vào mô hình huấn luyện.
+* **Chế độ dự đoán:** truyền vào thời gian và trạng thái của các thiết bị khác để dự
+đoán trạng thái của thiết bị còn lại.
+
+### Mô hình huấn luyện
+
+**Tạo dataset theo kịch bản**
+Chúng tôi tạo ra bộ dataset có một số kịch bản phù hợp với
+các thiết bị trong mô hình Smart Home bằng script ```create-dataset.py```
