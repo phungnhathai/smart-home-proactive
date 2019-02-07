@@ -8,7 +8,8 @@
  
  ## Các tầng trong hệ thống
  <p align="center">
-  <img width="460" src="https://github.com/phungnhathai/smart-home-proactive/blob/master/image/layer.png" align="center">
+  <img width="400" src="https://github.com/phungnhathai/smart-home-proactive/blob/master/image/layer.png" align="center">
+  Các tầng trong hệ thống
 </p>
 
  
