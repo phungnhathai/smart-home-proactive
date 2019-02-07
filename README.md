@@ -4,9 +4,9 @@
   Ví dụ về việc điều khiển máy lạnh trong ngôi nhà: 
   ```Khi đi làm về nhà, chủ nhà muốn điều chỉnh nhiệt độ 25°C, đến lúc đi ngủ lại muốn 26°C, đến khi thức dậy lại muốn nhiệt độ 28°C. Với thói quen như vậy, ngôi nhà có thể học hỏi và từ đó có những điều chỉnh phù hợp trong tương lai.```
   
- # Thiết kế hệ thống
+ ## Thiết kế hệ thống
  
- ## Các tầng trong hệ thống
+ ### Các tầng trong hệ thống
  Giải pháp nhà thông minh với khả năng học tập và phản ứng theo thói quen của
 người dùng được thiết kế chia thành 4 tầng.
  <p align="center">
@@ -14,7 +14,7 @@ người dùng được thiết kế chia thành 4 tầng.
 </p>
 
  
- ### 1. Tầng vật lý
+ #### 1. Tầng vật lý
  <p align="center">
  <img width="400" align="center" src="https://github.com/phungnhathai/smart-home-proactive/blob/master/image/physical-layer.png">
   </p>
@@ -31,3 +31,16 @@ người dùng được thiết kế chia thành 4 tầng.
 
  Các thiết bị vật lý trong mô hình
 
+#### 2. Tầng giao tiếp
+<p align="center">
+<img src="https://github.com/phungnhathai/smart-home-proactive/blob/master/image/mqtt.png">
+</p>
+
+Tầng giao tiếp có nhiệm vụ tạo kết nối giữa các thiết bị ở tầng vật lý và server
+cloud ở tầng xử lý. Giao thức MQTT được sử dụng để gửi và nhận dữ liệu giữa mạch 
+nhúng Arduino như là Subcriber và Broker HiveMQ. Để đảm tính bảo mật, chúng tôi
+triển khai giao thức bảo mật TLS ở tầng tranport của giao thức MQTT. Giao thức này
+cung cấp sự mã hóa dữ liệu, nhằm đảm bảo dữ liệu bí mật và toàn vẹn trong quá trình
+truyền nhận. Ngoài ra, hệ thống còn có cơ chế xác thực trong giao thức MQTT, nghĩa
+là khi một Client muốn subcribe hoặc publish đến Broker thì phải được xác thực bằng
+username và password.
