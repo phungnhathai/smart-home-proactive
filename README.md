@@ -47,7 +47,7 @@ username và password.
 
 #### 3. Tầng xử lý
 Tầng xử lý là một server ảo hóa được triển khai trên nền tảng điện toán đám
-mây với phần mềm OpenStack. Server này sẽ các chạy dịch vụ:
+mây **OpenStack**. Server này sẽ các chạy dịch vụ:
 * **Web server:** được xây dựng trên framework Django, cùng với Django
 Channels hỗ trợ websocket và Eclipse Paho giúp giao tiếp với giữa ứng dụng
 web với dịch vụ MQTT.
@@ -59,3 +59,7 @@ khiển và thu thập trạng thái của thiết bị vật lý.
 của các thiết bị vật lý từ thao tác của người dùng ở ứng dụng web theo thời
 gian. Dữ liệu này sẽ được xử lý để tạo thành tập dataset phục vụ cho quá trình
 huấn luyện. 
+
+#### 4. Tầng ứng dụng
+Tầng ứng dụng cung cấp do người dùng một giao diện website để điều khiển
+các thiết bị trong nhà từ xa, theo dõi quá trình thu thập dữ liệu và huấn luyện. 
