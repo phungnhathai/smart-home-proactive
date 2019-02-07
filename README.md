@@ -20,7 +20,6 @@ người dùng được thiết kế chia thành 4 tầng.
   </p>
   <p align="center">Các thiết bị vật lý trong mô hình</p>
  
-<p align="center">
 | Device       | Số lượng       | Chú thích  |
 | ------------- |:-------------:|:-----:|
 | ESP8266     | 3 | Mạch nhúng Arduino |
@@ -30,4 +29,4 @@ người dùng được thiết kế chia thành 4 tầng.
 | Màn hình oled I2C | 1 | Hiển thị nhiệt độ |
 | Đèn led | 6 (1 led RGB) | Hệ thống đèn trong nhà |
  Các thiết bị vật lý trong mô hình
-</p>
+
