@@ -7,7 +7,7 @@
  # Thiết kế hệ thống
  
  ## Các tầng trong hệ thống
- <img src="https://github.com/phungnhathai/smart-home-proactive/blob/master/image/layer.png" align="center" width="480">
+ <img src="https://github.com/phungnhathai/smart-home-proactive/blob/master/image/layer.png" align="center" width="480">{align=center}
  
  ### 1. Tầng vật lý
  
