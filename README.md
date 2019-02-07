@@ -33,7 +33,7 @@ người dùng được thiết kế chia thành 4 tầng.
 
 #### 2. Tầng giao tiếp
 <p align="center">
-<img src="https://github.com/phungnhathai/smart-home-proactive/blob/master/image/mqtt.png">
+<img width="400" src="https://github.com/phungnhathai/smart-home-proactive/blob/master/image/mqtt.png">
 </p>
 
 Tầng giao tiếp có nhiệm vụ tạo kết nối giữa các thiết bị ở tầng vật lý và server
@@ -63,3 +63,22 @@ huấn luyện.
 #### 4. Tầng ứng dụng
 Tầng ứng dụng cung cấp do người dùng một giao diện website để điều khiển
 các thiết bị trong nhà từ xa, theo dõi quá trình thu thập dữ liệu và huấn luyện. 
+* Giao diện Dashboard cho phép theo dõi trạng thái và điều khiển các thiết bị trong mô hình
+
+<p align="center">
+<img width="400" src="https://github.com/phungnhathai/smart-home-proactive/blob/master/image/dashboard.png">
+</p>
+<p align="center">Giao diện Dashboard</p>
+
+* Giao diện Training cho phép quản lý, theo dõi quá trình huấn luyện
+<p align="center">
+<img width="400" src="https://github.com/phungnhathai/smart-home-proactive/blob/master/image/Training.png">
+</p>
+<p align="center">Giao diện Training</p>
+
+ ### Workflow
+ 
+ <p align="center">
+<img width="400" src="https://github.com/phungnhathai/smart-home-proactive/blob/master/image/dashboard.png">
+</p>
+<p align="center">Giao diện Dashboard</p>
