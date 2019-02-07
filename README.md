@@ -1,4 +1,4 @@
-# Smart Home with a proactive approach based on Machine Learning
+## Smart Home with a proactive approach based on Machine Learning
   Những giải pháp Smart Home hiện nay cho phép chúng ta điều khiển, quản lý thông qua sự tương tác của chủ nhà như điều khiển bằng giọng nói hay qua các thiết bị di dộng. Với mô hình Smart Home như trên thì chủ nhà phải thiết lập các quy tắc từ đơn gian đến phức tạp để ngôi nhà hoạt động tốt theo ý của mình, như vậy sẽ gây khó khăn, mất thời gian, bất tiện cho chủ nhà. Smart Home chỉ dừng lại ở khái niệm nhà tự động. Với sự phát triển mạnh mẽ của công nghệ, khái niệm nhà thông minh đã dần thay đổi. Những ngôi nhà sẽ thật sự thông minh nếu có khả năng học hỏi, phản ứng một cách chủ động theo những thói quen, hành vi của chủ nhà. Việc ứng dụng Machine Learning vào Smart Home sẽ giúp ngôi nhà có thể trở nên thông minh hơn.
   
   Ví dụ về việc điều khiển máy lạnh trong ngôi nhà: 
