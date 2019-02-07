@@ -48,14 +48,14 @@ username và password.
 #### 3. Tầng xử lý
 Tầng xử lý là một server ảo hóa được triển khai trên nền tảng điện toán đám
 mây với phần mềm OpenStack. Server này sẽ các chạy dịch vụ:
-**Web server:** được xây dựng trên framework Django, cùng với Django
+* **Web server:** được xây dựng trên framework Django, cùng với Django
 Channels hỗ trợ websocket và Eclipse Paho giúp giao tiếp với giữa ứng dụng
 web với dịch vụ MQTT.
-**Thuật toán Random Forest:** thực hiện quá trình huấn luyện từ tập dataset
+* **Thuật toán Random Forest:** thực hiện quá trình huấn luyện từ tập dataset
 truyền vào, quá trình dự đoán đưa ra lệnh điều khiển các thiết bị ở tầng vật lý
-**Dịch vụ MQTT Broker – HiveMQ:** có nhiệm vụ truyền nhận các lệnh điều
+* **Dịch vụ MQTT Broker – HiveMQ:** có nhiệm vụ truyền nhận các lệnh điều
 khiển và thu thập trạng thái của thiết bị vật lý.
-**Cơ sở dữ liệu SQLite:** cơ sở dữ liệu lưu trữ các lệnh điều khiển, trạng thái
+* **Cơ sở dữ liệu SQLite:** cơ sở dữ liệu lưu trữ các lệnh điều khiển, trạng thái
 của các thiết bị vật lý từ thao tác của người dùng ở ứng dụng web theo thời
 gian. Dữ liệu này sẽ được xử lý để tạo thành tập dataset phục vụ cho quá trình
 huấn luyện. 
