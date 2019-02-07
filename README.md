@@ -75,7 +75,7 @@ các thiết bị trong nhà từ xa, theo dõi quá trình thu thập dữ li�
 </p>
 <p align="center">Giao diện Training</p>
 
- ### Workflow
+ ## Workflow
 
  Mô hình nhà thông minh của chúng tôi hoạt động với ba luồng xử lý chính:
 * **Thu thập dữ liệu:** khi người dùng điều khiển thiết bị qua giao diện website thì
@@ -91,7 +91,7 @@ sở dữ liệu.
 </p>
 <p align="center">Giao diện Dashboard</p>
 
-### Mô hình huấn luyện
+## Mô hình huấn luyện
 
 **Tạo dataset theo kịch bản**
 Chúng tôi tạo ra bộ dataset có một số kịch bản phù hợp với
