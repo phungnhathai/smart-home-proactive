@@ -33,7 +33,7 @@ người dùng được thiết kế chia thành 4 tầng.
 
 #### 2. Tầng giao tiếp
 <p align="center">
-<img src="https://github.com/phungnhathai/smart-home-proactive/blob/master/image/mqtt.png">
+<img width="400" src="https://github.com/phungnhathai/smart-home-proactive/blob/master/image/mqtt.png">
 </p>
 
 Tầng giao tiếp có nhiệm vụ tạo kết nối giữa các thiết bị ở tầng vật lý và server
