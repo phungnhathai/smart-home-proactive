@@ -14,7 +14,7 @@
  
  ### 1. Tầng vật lý
  
- <img width="400" src="https://github.com/phungnhathai/smart-home-proactive/blob/master/image/physical-layer.png" align="center">
+ <img width="400" src="https://github.com/phungnhathai/smart-home-proactive/blob/master/image/physical-layer.png"  align="center">
  
  | Cột 1 Hàng 1 | Cột 2 | Cột 3| Cột 4 |
 |--------------|-------|------|-------|
