@@ -28,5 +28,6 @@ người dùng được thiết kế chia thành 4 tầng.
 | Sensor HC-SR04 | 1 | Phát hiện người để mở cửa tự động |
 | Màn hình oled I2C | 1 | Hiển thị nhiệt độ |
 | Đèn led | 6 (1 led RGB) | Hệ thống đèn trong nhà |
+
  Các thiết bị vật lý trong mô hình
 
