@@ -12,7 +12,6 @@ người dùng được thiết kế chia thành 4 tầng.
  <p align="center">
   <img width="400" src="https://github.com/phungnhathai/smart-home-proactive/blob/master/image/layer.png">
 </p>
-
  
  #### 1. Tầng vật lý
  <p align="center">
@@ -77,13 +76,8 @@ các thiết bị trong nhà từ xa, theo dõi quá trình thu thập dữ li�
 <p align="center">Giao diện Training</p>
 
  ### Workflow
- 
- <p align="center">
-<img width="400" src="https://github.com/phungnhathai/smart-home-proactive/blob/master/image/work-flow.png">
-</p>
-<p align="center">Giao diện Dashboard</p>
 
-Mô hình nhà thông minh của chúng tôi hoạt động với ba luồng xử lý chính:
+ Mô hình nhà thông minh của chúng tôi hoạt động với ba luồng xử lý chính:
 * **Thu thập dữ liệu:** khi người dùng điều khiển thiết bị qua giao diện website thì
 trạng thái của các thiết bị sẽ được thu thập cùng với thời gian và lưu trữ ở cơ
 sở dữ liệu.
@@ -91,6 +85,11 @@ sở dữ liệu.
 đưa vào mô hình huấn luyện.
 * **Chế độ dự đoán:** truyền vào thời gian và trạng thái của các thiết bị khác để dự
 đoán trạng thái của thiết bị còn lại.
+
+ <p align="center">
+<img width="400" src="https://github.com/phungnhathai/smart-home-proactive/blob/master/image/work-flow.png">
+</p>
+<p align="center">Giao diện Dashboard</p>
 
 ### Mô hình huấn luyện
 
