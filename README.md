@@ -75,3 +75,10 @@ các thiết bị trong nhà từ xa, theo dõi quá trình thu thập dữ li�
 <img width="400" src="https://github.com/phungnhathai/smart-home-proactive/blob/master/image/Training.png">
 </p>
 <p align="center">Giao diện Training</p>
+
+ ### Workflow
+ 
+ <p align="center">
+<img width="400" src="https://github.com/phungnhathai/smart-home-proactive/blob/master/image/dashboard.png">
+</p>
+<p align="center">Giao diện Dashboard</p>
