@@ -7,14 +7,18 @@
  # Thiết kế hệ thống
  
  ## Các tầng trong hệ thống
+ Giải pháp nhà thông minh với khả năng học tập và phản ứng theo thói quen của
+người dùng được thiết kế chia thành 4 tầng.
  <p align="center">
-  <img width="400" src="https://github.com/phungnhathai/smart-home-proactive/blob/master/image/layer.png" align="center">
+  <img width="400" src="https://github.com/phungnhathai/smart-home-proactive/blob/master/image/layer.png">
 </p>
 
  
  ### 1. Tầng vật lý
- 
+ <p align="center">
  <img width="400" align="center" src="https://github.com/phungnhathai/smart-home-proactive/blob/master/image/physical-layer.png">
+  </p>
+  <p align="center">Các thiết bị vật lý trong mô hình</p>
  
 
 | Device       | Số lượng       | Chú thích  |
